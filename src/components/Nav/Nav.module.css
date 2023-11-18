@@ -1,0 +1,26 @@
+.nav {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    gap: 1rem;
+}
+
+.nav li {
+	padding: 1rem 2rem;
+	cursor: pointer;
+	transition: all 0.1s ease-in-out;
+}
+
+.nav li:hover {
+	color: white;
+}
+
+.sam {
+	margin-right: auto;
+    color: white;
+}
+
+.sam:hover {
+	background-color: transparent !important;
+    color: white !important;
+}
