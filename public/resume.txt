@@ -1,0 +1,8 @@
+List of proficiencies:
+-Javascript
+-HTML/CSS
+-React
+-MongoDB
+-My SQL
+
+RESUME INCOMPLETE AT THE MOMENT
