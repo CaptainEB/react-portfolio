@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Nav from './components/Nav';
 import PageRoutes from './components/PageRoutes';
 
@@ -10,6 +11,7 @@ function App() {
 			<main>
 				<PageRoutes />
 			</main>
+			<Footer />
 		</>
 	);
 }

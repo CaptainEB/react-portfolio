@@ -1,3 +1,8 @@
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -20,5 +25,10 @@ li {
 }
 
 main {
-	margin-inline: 3rem;
+	margin-inline: 5rem;
+	min-height: 90dvh;
+}
+
+img {
+	max-width: 100%;
 }

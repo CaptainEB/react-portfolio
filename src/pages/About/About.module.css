@@ -1,0 +1,22 @@
+.hero {
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.hero > h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero img {
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+.about_me {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}

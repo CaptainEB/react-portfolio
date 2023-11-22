@@ -1,24 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './Nav.module.css';
 
 export default function Nav() {
 	return (
-		<nav>
-			<ul className={styles.nav}>
-				<li className={styles.sam}>
-					<Link to="/">Sam Ebadi Sobi</Link>
-				</li>
-					<li>
-						<Link to="/projects">Projects</Link>
-					</li>
-					<li>
-						<Link to="/contact">Contact</Link>
-					</li>
-					<li>
-						<Link to="/about">About</Link>
-					</li>
-			</ul>
+		<nav className={styles.nav}>
+			<NavLink className={({isActive}) => (isActive ? styles.isActive : '')} to="/projects">
+				Projects
+			</NavLink>
+			<NavLink className={({isActive}) => (isActive ? styles.isActive : '')} to="/contact">
+				Contact
+			</NavLink>
+			<NavLink className={({isActive}) => (isActive ? styles.isActive : '')} to="/resume">
+				Resume
+			</NavLink>
+			<NavLink className={({isActive}) => (isActive ? styles.isActive : '')} to="/">
+				About Me
+			</NavLink>
 		</nav>
 	);
 }
