@@ -1,8 +1,17 @@
-# React + Vite
+# Sam Ebadi Sobi's portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my updated portfolio made with react and vite. It highlights my best projects and some info about me.
 
-Currently, two official plugins are available:
+[Live URL]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+
+## ![About Page](/public/screenshots/about.png)
+
+## ![Contact Page](/public/screenshots/contact.png)
+
+## ![projects Page](/public/screenshots/projects.png)
+
+## ![resume Page](/public/screenshots/resume.png)
+
+This app was made by Sam Ebadi Sobi.
