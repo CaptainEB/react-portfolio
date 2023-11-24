@@ -2,7 +2,7 @@
 
 This is my updated portfolio made with react and vite. It highlights my best projects and some info about me.
 
-[Live URL]()
+[Live URL](https://main--guileless-palmier-2335db.netlify.app/)
 
 ## Screenshots
 
