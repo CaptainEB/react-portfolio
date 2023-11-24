@@ -5,6 +5,7 @@ import styles from './Nav.module.css';
 export default function Nav() {
 	return (
 		<nav className={styles.nav}>
+			<h1 className={styles.sam}>Sam Ebadi Sobi</h1>
 			<NavLink className={({isActive}) => (isActive ? styles.isActive : '')} to="/projects">
 				Projects
 			</NavLink>
